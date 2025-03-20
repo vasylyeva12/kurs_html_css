@@ -1,0 +1,22 @@
+@import url('reset.css');
+
+a {
+    color: blue;
+}
+
+.link  a {
+    color: lightskyblue;
+}
+
+[id*='section_']{
+    color: rgb(12, 241, 165);
+}
+
+div {
+    color: rgb(88, 86, 86);
+}
+
+.title + p{
+    color: red;
+}
+
