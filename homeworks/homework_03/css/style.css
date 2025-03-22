@@ -1,22 +1,38 @@
 @import url('reset.css');
 
-a {
-    color: blue;
+#culture {
+    color: darkgreen;
 }
 
-.link  a {
+.link a {
     color: lightskyblue;
 }
 
-[id*='section_']{
+[class*='_title'] {
     color: rgb(12, 241, 165);
 }
 
-div {
-    color: rgb(88, 86, 86);
+.location_container * {
+    color: darkmagenta;
 }
 
-.title + p{
+.history_container {
+    color: cadetblue;
+}
+
+
+.history_content span {
+    color: chocolate;
+}
+
+.modern_content li {
+    color: brown;
+}
+
+.inference_content>p {
+    color: blueviolet;
+}
+
+.inference_content>p+p {
     color: red;
 }
-
